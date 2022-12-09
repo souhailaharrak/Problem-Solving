@@ -1,15 +1,21 @@
 
-//write function that take n as parametre and sum from 1 to n
-// write function that sum all number between 1 to n
+//write function that take  2 params 
+// first paramter is strign of one worde
+// second paramtre is a character 
+//calculate  the number of char that opper in the strign 
 
-function Sum(n){
-  
-    let somme =0;
-      for(let i=1;i<=n;i++){
+function Count(Stn,Chart){
+ 
+    let count=0; 
+    for(let i=0;i<=Stn.length;i++){
 
-           somme  += i;
+      if(Stn[i]==Chart){
 
-          console.log(somme)
+        count++;
       }
+  
+    }
+
+    console.log(count)
 }
-Sum(5)
+Count("code","e")
