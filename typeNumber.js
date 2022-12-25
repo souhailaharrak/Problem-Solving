@@ -1,4 +1,9 @@
 
+
+  //Is enum type?
+//An enum type is a special data type that enables for a variable to be a set of predefined constants.
+   //The variable must be equal to one of the values that have been predefined for it.
+
 const NumberType = Object.freeze({
 	even: "even",
 	odd: "odd",
@@ -29,9 +34,7 @@ var readNumber=function(){
       }
   }
    
-   //Is enum type?
-//An enum type is a special data type that enables for a variable to be a set of predefined constants.
-   //The variable must be equal to one of the values that have been predefined for it.
+ 
    
    
    
