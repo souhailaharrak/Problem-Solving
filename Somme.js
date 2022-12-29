@@ -1,15 +1,55 @@
 
-//write function that take n as parametre and sum from 1 to n
-// write function that sum all number between 1 to n
 
-function Sum(n){
-  
-    let somme =0;
-      for(let i=1;i<=n;i++){
 
-           somme  += i;
-
-          console.log(somme)
-      }
+ 
+function recomendationn( ){
+   
+    
+   
+    var recomendation= prompt( "entre un nom rec");
+ 
+  return recomendation;
 }
-Sum(5)
+
+
+function ReadAge( ){
+   
+ 
+   
+    var age= prompt( "entre un nom ber");
+ 
+  return age;
+}
+
+
+function HasDrive( ){
+   
+ 
+     var hasdrive= prompt( "vous avez un driver");
+    
+   return hasdrive;
+ 
+};
+
+
+
+ 
+
+function check( age,hasdrive, recomendation){
+ 
+     if(recomendation==="true"){
+       
+      
+       alert("ok");
+
+     }   else if( age>21 &&  hasdrive==="true"  ){
+ 
+       alert("okk");
+    
+  } else{
+    alert("NoN");
+}
+  
+  
+}
+     check( ReadAge( ),  HasDrive( ) ,  recomendationn())
